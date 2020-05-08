@@ -1,0 +1,4 @@
+com\Appium\demo\buyProduct\TC1_BuyProduct.class
+com\Appium\demo\checkout\TC1_Checkout.class
+com\Appium\demo\Login\TC2_SignupInvalid.class
+com\Appium\demo\Login\TC1_Signup.class

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.Appium.demo.resources.Listners"/>
+    <listener class-name="com.Appium.demo.resources.reportBase"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="LOGIN(failed)">
+    <classes>
+      <class name="com.Appium.demo.Login.TC1_Signup">
+        <methods>
+          <include name="signUp"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Appium.demo.Login.TC1_Signup -->
+    </classes>
+  </test> <!-- LOGIN(failed) -->
+</suite> <!-- Failed suite [Suite] -->

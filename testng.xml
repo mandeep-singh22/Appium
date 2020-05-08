@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+ <listeners>
+<listener class-name="com.Appium.demo.resources.Listners"></listener>
+<listener class-name="com.Appium.demo.resources.reportBase"></listener>
+</listeners>
+	
+	 <test  name="LOGIN">
+    <classes>
+     <class name="com.Appium.demo.Login.TC1_Signup" />
+    </classes>
+  </test> 
+  
+  
+   <test  name="InvalidSignup">
+    <classes>
+  <class name="com.Appium.demo.Login.TC2_SignupInvalid" >
+  </class>
+    </classes>
+  </test>  
+  
+    <test  name="Buy Product">
+    <classes>
+     <class name="com.Appium.demo.buyProduct.TC1_BuyProduct" />
+    </classes>
+  </test>
+  
+    <test  name="Checkout Product">
+    <classes>
+     <class name="com.Appium.demo.checkout.TC1_Checkout" />
+    </classes>
+  </test>
+</suite> 

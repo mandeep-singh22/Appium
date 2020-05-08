@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="172349" started-at="2020-05-08T06:27:18Z" finished-at="2020-05-08T06:30:11Z">
+    <groups>
+    </groups>
+    <test name="LOGIN" duration-ms="36671" started-at="2020-05-08T06:27:18Z" finished-at="2020-05-08T06:27:55Z">
+      <class name="com.Appium.demo.Login.TC1_Signup">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Appium.demo.Login.TC1_Signup@77cd7a0]" name="setup" is-config="true" duration-ms="24890" started-at="2020-05-08T06:27:18Z" finished-at="2020-05-08T06:27:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signUp()[pri:0, instance:com.Appium.demo.Login.TC1_Signup@77cd7a0]" name="signUp" duration-ms="11588" started-at="2020-05-08T06:27:43Z" finished-at="2020-05-08T06:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Appium.demo.Login.TC1_Signup@77cd7a0]" name="teardown" is-config="true" duration-ms="175" started-at="2020-05-08T06:27:55Z" finished-at="2020-05-08T06:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Appium.demo.Login.TC1_Signup -->
+    </test> <!-- LOGIN -->
+    <test name="InvalidSignup" duration-ms="36764" started-at="2020-05-08T06:27:55Z" finished-at="2020-05-08T06:28:32Z">
+      <class name="com.Appium.demo.Login.TC2_SignupInvalid">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Appium.demo.Login.TC2_SignupInvalid@3f49dace]" name="setup" is-config="true" duration-ms="23465" started-at="2020-05-08T06:27:55Z" finished-at="2020-05-08T06:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signUp2()[pri:0, instance:com.Appium.demo.Login.TC2_SignupInvalid@3f49dace]" name="signUp2" duration-ms="9605" started-at="2020-05-08T06:28:18Z" finished-at="2020-05-08T06:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp2 -->
+        <test-method status="PASS" signature="validateSignup()[pri:0, instance:com.Appium.demo.Login.TC2_SignupInvalid@3f49dace]" name="validateSignup" duration-ms="688" started-at="2020-05-08T06:28:28Z" depends-on-methods="com.Appium.demo.Login.TC2_SignupInvalid.signUp2" finished-at="2020-05-08T06:28:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSignup -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Appium.demo.Login.TC2_SignupInvalid@3f49dace]" name="teardown" is-config="true" duration-ms="3004" started-at="2020-05-08T06:28:29Z" finished-at="2020-05-08T06:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Appium.demo.Login.TC2_SignupInvalid -->
+    </test> <!-- InvalidSignup -->
+    <test name="Buy Product" duration-ms="49778" started-at="2020-05-08T06:28:32Z" finished-at="2020-05-08T06:29:21Z">
+      <class name="com.Appium.demo.buyProduct.TC1_BuyProduct">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Appium.demo.buyProduct.TC1_BuyProduct@cb644e]" name="setup" is-config="true" duration-ms="23870" started-at="2020-05-08T06:28:32Z" finished-at="2020-05-08T06:28:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signUp()[pri:0, instance:com.Appium.demo.buyProduct.TC1_BuyProduct@cb644e]" name="signUp" duration-ms="11512" started-at="2020-05-08T06:28:56Z" finished-at="2020-05-08T06:29:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="addProducts()[pri:0, instance:com.Appium.demo.buyProduct.TC1_BuyProduct@cb644e]" name="addProducts" duration-ms="10105" started-at="2020-05-08T06:29:07Z" depends-on-methods="com.Appium.demo.buyProduct.TC1_BuyProduct.signUp" finished-at="2020-05-08T06:29:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProducts -->
+        <test-method status="PASS" signature="verifyAmount()[pri:0, instance:com.Appium.demo.buyProduct.TC1_BuyProduct@cb644e]" name="verifyAmount" duration-ms="3516" started-at="2020-05-08T06:29:17Z" depends-on-methods="com.Appium.demo.buyProduct.TC1_BuyProduct.addProducts" finished-at="2020-05-08T06:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmount -->
+        <test-method status="PASS" signature="checkout()[pri:0, instance:com.Appium.demo.buyProduct.TC1_BuyProduct@cb644e]" name="checkout" duration-ms="610" started-at="2020-05-08T06:29:21Z" depends-on-methods="com.Appium.demo.buyProduct.TC1_BuyProduct.verifyAmount" finished-at="2020-05-08T06:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Appium.demo.buyProduct.TC1_BuyProduct@cb644e]" name="teardown" is-config="true" duration-ms="164" started-at="2020-05-08T06:29:21Z" finished-at="2020-05-08T06:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Appium.demo.buyProduct.TC1_BuyProduct -->
+    </test> <!-- Buy Product -->
+    <test name="Checkout Product" duration-ms="49108" started-at="2020-05-08T06:29:21Z" finished-at="2020-05-08T06:30:11Z">
+      <class name="com.Appium.demo.checkout.TC1_Checkout">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Appium.demo.checkout.TC1_Checkout@3159c4b8]" name="setup" is-config="true" duration-ms="23481" started-at="2020-05-08T06:29:21Z" finished-at="2020-05-08T06:29:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="signUp()[pri:0, instance:com.Appium.demo.checkout.TC1_Checkout@3159c4b8]" name="signUp" duration-ms="11458" started-at="2020-05-08T06:29:45Z" finished-at="2020-05-08T06:29:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signUp -->
+        <test-method status="PASS" signature="addProducts()[pri:0, instance:com.Appium.demo.checkout.TC1_Checkout@3159c4b8]" name="addProducts" duration-ms="9854" started-at="2020-05-08T06:29:56Z" depends-on-methods="com.Appium.demo.checkout.TC1_Checkout.signUp" finished-at="2020-05-08T06:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProducts -->
+        <test-method status="PASS" signature="verifyAmount()[pri:0, instance:com.Appium.demo.checkout.TC1_Checkout@3159c4b8]" name="verifyAmount" duration-ms="3511" started-at="2020-05-08T06:30:06Z" depends-on-methods="com.Appium.demo.checkout.TC1_Checkout.addProducts" finished-at="2020-05-08T06:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmount -->
+        <test-method status="PASS" signature="checkout()[pri:0, instance:com.Appium.demo.checkout.TC1_Checkout@3159c4b8]" name="checkout" duration-ms="611" started-at="2020-05-08T06:30:10Z" depends-on-methods="com.Appium.demo.checkout.TC1_Checkout.verifyAmount" finished-at="2020-05-08T06:30:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Appium.demo.checkout.TC1_Checkout@3159c4b8]" name="teardown" is-config="true" duration-ms="191" started-at="2020-05-08T06:30:10Z" finished-at="2020-05-08T06:30:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Appium.demo.checkout.TC1_Checkout -->
+    </test> <!-- Checkout Product -->
+  </suite> <!-- Suite -->
+</testng-results>

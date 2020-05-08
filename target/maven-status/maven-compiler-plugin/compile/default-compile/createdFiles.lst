@@ -1,0 +1,7 @@
+com\Appium\demo\base\utils.class
+com\Appium\demo\base\DynamicBaseDriver.class
+com\Appium\demo\resources\Listners.class
+com\Appium\demo\screens\ProductCart.class
+com\Appium\demo\resources\reportBase.class
+com\Appium\demo\screens\HomePage.class
+com\Appium\demo\screens\ProductPage.class
